@@ -13,7 +13,7 @@ import aerologixImg from "../assets/aerologix-cover.svg";
 
 /*
   Amit Ashok Swain — Comprehensive Production Portfolio Data
-  Convergence of Finance, Technology, Data, and Product Leadership
+  Full Convergence of Tech, AI Microservices, Finance Operations, Data Engineering, and Product Leadership
 */
 
 const initialState = {
@@ -269,7 +269,7 @@ const initialState = {
       color: "bg-slate-900",
       border: "border-emerald-500/50",
       image: aerologixImg,
-      link: "https://github.com/Amit-Ashok-Swain/autofinance-ai-automation",
+      link: "https://temporary-nimble-crater-0672ow3.vercel.app",
       codeSnippet: `VEHICLE ON-ROAD BILLING & TCS LOGIC:
 Consideration = ExShowroom (₹19,49,000) + Accessories (₹24,500)
 TCS_Applicable = (Consideration > 10,00,000) ? Consideration * 0.01 : 0
@@ -374,7 +374,7 @@ Gross Operating Margin = (Gross Profit / Total Revenue) * 100
       title: "SongGPT",
       tagline: "AI Music Production Engine & Contextual Lyric Synthesizer",
       role: "Lead Product Manager & Prompt Architect",
-      timeline: "4 Months (MVP to V1)",
+      timeline: "4 Months (0→1 Launch)",
       category: "AI & Cloud Tech",
       metrics: [
         { label: "Weekly Active Users", value: "45K+" },
@@ -405,7 +405,7 @@ Gross Operating Margin = (Gross Profit / Total Revenue) * 100
       color: "bg-slate-900",
       border: "border-purple-500/50",
       image: songgptImg,
-      link: "https://songgpt.vercel.app",
+      link: "https://songgpt.com/",
       codeSnippet: `// Dynamic Lyric & Beat Engine
 const stemSession = await SongGPT.synthesize({
   genre: "Synthwave Neo-Tokyo",
@@ -417,6 +417,54 @@ const stemSession = await SongGPT.synthesize({
     },
     {
       id: 5,
+      slug: "sound-of-meme",
+      title: "Sound Of Meme",
+      tagline: "Web3 AI Audio Engine & ERC-721 Tokenization Pipeline",
+      role: "Lead Project Manager",
+      timeline: "5 Months",
+      category: "AI & Cloud Tech",
+      metrics: [
+        { label: "Tracks Minted", value: "32K+" },
+        { label: "Smart Contracts", value: "Audited (CertiK)" },
+        { label: "Community", value: "90K+ Members" },
+        { label: "Gas Efficiency", value: "-42% Gas Opt" },
+      ],
+      techStack: [
+        "Solidity",
+        "Ethereum",
+        "Web3.js",
+        "Java",
+        "Spring Boot",
+        "AWS S3",
+        "IPFS",
+      ],
+      description:
+        "An AI music platform seamlessly combining advanced neural audio synthesis and Web3 smart contracts to turn viral memes and animations into tradeable audio assets.",
+      challenge:
+        "Meme creators lacked copyright protection, monetization pathways, and easy tools to generate sonic identities for viral memes.",
+      solution:
+        "Engineered an automated ERC-721 minting pipeline that anchors decentralized IPFS hashes for generated audio stems directly on Ethereum mainnet.",
+      architectureHighlights: [
+        "ERC-721 gas-optimized smart contracts with batch minting",
+        "Decentralized IPFS asset pinning via Pinata & AWS S3 backups",
+        "Automated audio fingerprinting and metadata indexing",
+        "Spring Boot backend gateway with webhook verification",
+      ],
+      color: "bg-slate-900",
+      border: "border-slate-700",
+      image: soundofmemeImg,
+      link: "https://soundofmeme.com/",
+      codeSnippet: `pragma solidity ^0.8.0;
+contract MemeAudio is ERC721 {
+   function mintTrack(address to, string memory uri) public {
+      uint256 tokenId = _tokenIds.current();
+      _mint(to, tokenId);
+      _setTokenURI(tokenId, uri);
+   }
+} // Deployed on Ethereum Mainnet`,
+    },
+    {
+      id: 6,
       slug: "pulsemetrics-kpi",
       title: "PulseMetrics Finance",
       tagline: "Executive Financial KPI Cockpit & 13-Week Cash Flow Forecasting Engine",
@@ -459,7 +507,7 @@ Opening Cash + Projected Collections + Financier Disbursements + Service Cash In
 >> Liquidity Alert Status: HEALTHY • 0 Breach Events Projected (90-Day Window)`,
     },
     {
-      id: 6,
+      id: 7,
       slug: "optiflow-erp",
       title: "OptiFlow Controls",
       tagline: "Internal Control, Approval Matrix & Anti-Fraud Governance Architecture",
@@ -503,7 +551,7 @@ Step 04 // Security Gate-Pass Generation: Asset Identification QR Code Emitted
 [Status] ASSET RELEASE AUTHORIZED • 100% Audit Coverage`,
     },
     {
-      id: 7,
+      id: 8,
       slug: "fintrack-pro",
       title: "FinTrack Gateway",
       tagline: "Corporate Invoicing, E-Way Bill & GST / ITC 3-Way Reconciliation Portal",
@@ -548,48 +596,55 @@ Inward Invoices Tested: 320 records | GSTR-2B Stream: 318 records
 [Result] 100% ITC RECOVERED • 0 Statutory Penalty Exposure`,
     },
     {
-      id: 8,
+      id: 9,
       slug: "neighborgood",
       title: "NeighborGood",
-      tagline: "Autonomous Community Platform & Geospatial Event Router",
-      role: "Lead Full-Stack PM",
-      timeline: "5 Months",
+      tagline: "Localized Delivery & Community Platform with Java Spring Boot 3",
+      role: "Product & Architecture Lead",
+      timeline: "4 Months",
       category: "Product & Operations",
       metrics: [
-        { label: "Community Hubs", value: "12 Cities" },
-        { label: "Event Matching", value: "<150ms" },
-        { label: "Verified Neighbors", value: "85K+" },
-        { label: "Engagement Lift", value: "+320%" },
+        { label: "Local Vendors", value: "350+" },
+        { label: "Delivery Time", value: "-28% Faster" },
+        { label: "Daily Transactions", value: "12K+" },
+        { label: "Customer NPS", value: "74" },
       ],
       techStack: [
-        "React",
-        "Node.js",
-        "PostGIS / PostgreSQL",
-        "GraphQL",
-        "Tailwind CSS",
-        "Mapbox GL",
+        "Java",
+        "Spring Boot 3",
+        "MySQL",
+        "Redis",
+        "Flutter",
+        "AWS EC2",
+        "Docker",
       ],
       description:
-        "A hyper-local civic and neighborhood engagement web app connecting residents, local councils, and volunteer networks with real-time geospatial routing.",
+        "Conceptualized and architected localized commerce applications emphasizing regional cuisine, eco-friendly delivery routing, and community event coordination.",
       challenge:
-        "Urban communities suffered from fragmented social communication channels, slow emergency resource coordination, and lack of verified resident authentication.",
+        "Hyperlocal delivery services struggled with route efficiency, dynamic regional inventory matching, and fragmented vendor onboarding.",
       solution:
-        "Engineered an event-driven platform featuring real-time spatial clustering, neighborhood verified badges, zero-latency emergency announcements, and collaborative local initiative voting.",
+        "Designed a geofenced Spring Boot microservices backend with spatial Redis caching, dynamic courier dispatching, and automated real-time order tracking.",
       architectureHighlights: [
-        "PostGIS spatial indexing for sub-150ms radius geospatial queries",
-        "GraphQL subscriptions powering real-time live neighborhood chat",
-        "Interactive Vector Mapbox maps with live incident markers",
-        "Role-based access control for neighborhood council administrators",
+        "Geospatial indexing with Redis Geo & PostGIS/MySQL spatial coordinates",
+        "Real-time driver location tracking with low battery impact",
+        "Spring Security role-based access control (Vendor, Courier, Customer)",
+        "Cross-platform mobile application built with Flutter & Dart",
       ],
       color: "bg-slate-900",
-      border: "border-cyan-500/50",
+      border: "border-slate-700",
       image: neighborgoodImg,
-      link: "https://neighborgood.vercel.app",
-      codeSnippet: `// PostGIS Spatial Query
-SELECT id, title, location, ST_Distance(geom, ST_MakePoint($long, $lat)::geography) as distance
-FROM community_events
-WHERE ST_DWithin(geom, ST_MakePoint($long, $lat)::geography, 5000)
-ORDER BY distance ASC LIMIT 20;`,
+      link: "https://neighborgood.io/",
+      codeSnippet: `@RestController
+@RequestMapping("/api/events")
+public class EventController {
+    @PostMapping("/local")
+    public ResponseEntity<Event> createEvent(
+        @RequestBody EventReq req) {
+        return ResponseEntity.ok(
+            eventService.save(req)
+        );
+    }
+}`,
     },
   ],
 
