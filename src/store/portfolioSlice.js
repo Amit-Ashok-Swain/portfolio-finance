@@ -269,7 +269,7 @@ const initialState = {
       color: "bg-slate-900",
       border: "border-emerald-500/50",
       image: aerologixImg,
-      link: "https://temporary-rushing-marble-d9s5lsl.vercel.app",
+      link: "https://autofinance-ai-automation.vercel.app",
       codeSnippet: `VEHICLE ON-ROAD BILLING & TCS LOGIC:
 Consideration = ExShowroom (₹19,49,000) + Accessories (₹24,500)
 TCS_Applicable = (Consideration > 10,00,000) ? Consideration * 0.01 : 0
@@ -361,7 +361,7 @@ Financier Payout Commission = LoanAmount (₹16,00,000) * 0.024
       color: "bg-slate-900",
       border: "border-emerald-500/50",
       image: omniledgerImg,
-      link: "https://temporary-racing-fluorine-l0prsp2.vercel.app",
+      link: "https://omniledger-ai-iota.vercel.app",
       codeSnippet: `-- Automated Multi-Entity Financial Consolidation:
 =SUMIFS(Ledger!$E:$E, Ledger!$B:$B, ">="&$B$2, Ledger!$B:$B, "<="&$B$3, Ledger!$D:$D, "Revenue")
 Net Working Capital = Current Assets - Current Liabilities
@@ -499,7 +499,7 @@ contract MemeAudio is ERC721 {
       color: "bg-slate-900",
       border: "border-amber-500/50",
       image: pulsemetricsImg,
-      link: "https://temporary-speedy-zenith-m6yzi6w.vercel.app",
+      link: "https://pulsemetrics-kpi-mu.vercel.app",
       codeSnippet: `// 13-Week Cash Forecasting Engine (Liquidity Formula):
 Opening Cash + Projected Collections + Financier Disbursements + Service Cash Inflow 
 - (Supplier Payments + Vendor Invoices + Payroll + Statutory GST/TDS + Bank Interest)
@@ -542,7 +542,7 @@ Opening Cash + Projected Collections + Financier Disbursements + Service Cash In
       color: "bg-slate-900",
       border: "border-purple-500/50",
       image: optiflowImg,
-      link: "https://temporary-prompt-tuba-sg23f66.vercel.app",
+      link: "https://optiflow-erp-wine.vercel.app",
       codeSnippet: `GOVERNANCE & GATE-PASS VALIDATION DIRECTIVE:
 Step 01 // Customer Payment Verification: Down Payment (Cash/POS) + Financier DO Validated
 Step 02 // Invoice Clearance: Ex-showroom / Base Invoice + Statutory Taxes + Add-ons Reconciled
@@ -586,7 +586,7 @@ Step 04 // Security Gate-Pass Generation: Asset Identification QR Code Emitted
       color: "bg-slate-900",
       border: "border-pink-500/50",
       image: fintrackImg,
-      link: "https://temporary-fast-ocarina-488q67z.vercel.app",
+      link: "https://fintrack-pro-seven-flame.vercel.app",
       codeSnippet: `GST / ITC 3-WAY RECONCILIATION ENGINE:
 Inward Invoices Tested: 320 records | GSTR-2B Stream: 318 records
 • Exact Matches: 312 invoices (₹48,50,000 ITC Reclaimed)
