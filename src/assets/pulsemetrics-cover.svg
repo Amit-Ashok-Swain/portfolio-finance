@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pulse-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e041d"/>
+      <stop offset="50%" stop-color="#1d0838"/>
+      <stop offset="100%" stop-color="#2d0b54"/>
+    </linearGradient>
+    <linearGradient id="pulse-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="pulse-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="pulse-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="pulse-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(168,85,247,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#pulse-bg)"/>
+  <rect width="1200" height="800" fill="url(#pulse-grid)"/>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="220" cy="180" r="220" fill="#a855f7" opacity="0.25" filter="url(#pulse-glow)"/>
+  <circle cx="1000" cy="620" r="260" fill="#ec4899" opacity="0.3" filter="url(#pulse-glow)"/>
+
+  <!-- Main Glass Dashboard Mockup -->
+  <g transform="translate(100, 80)">
+    <rect x="0" y="0" width="1000" height="640" rx="32" fill="rgba(24, 10, 48, 0.85)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="2" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.6))"/>
+    
+    <!-- Window Header Bar -->
+    <rect x="0" y="0" width="1000" height="64" rx="32" fill="rgba(38, 16, 74, 0.95)"/>
+    <circle cx="36" cy="32" r="7" fill="#ef4444"/>
+    <circle cx="60" cy="32" r="7" fill="#f59e0b"/>
+    <circle cx="84" cy="32" r="7" fill="#10b981"/>
+    <text x="120" y="38" fill="#e9d5ff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="2">PULSEMETRICS // EXECUTIVE FINANCIAL KPI COMMAND CENTER</text>
+    <rect x="800" y="18" width="160" height="28" rx="14" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1"/>
+    <text x="822" y="36" fill="#c084fc" font-family="monospace" font-size="11" font-weight="bold">● 15+ LIVE KPI GAUGES</text>
+
+    <!-- Top 3 KPI Pillars -->
+    <g transform="translate(40, 95)">
+      <rect x="0" y="0" width="290" height="135" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(236,72,153,0.3)" stroke-width="1.5"/>
+      <text x="24" y="34" fill="#fda4af" font-family="sans-serif" font-size="12" font-weight="bold">GROSS OPERATING MARGIN</text>
+      <text x="24" y="78" fill="#ffffff" font-family="sans-serif" font-size="36" font-weight="900">41.8%</text>
+      <text x="24" y="110" fill="#34d399" font-family="monospace" font-size="11">▲ +6.4% VS BUDGETED TARGET</text>
+
+      <rect x="315" y="0" width="290" height="135" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(168,85,247,0.3)" stroke-width="1.5"/>
+      <text x="339" y="34" fill="#c084fc" font-family="sans-serif" font-size="12" font-weight="bold">CASH RUNWAY FORECAST</text>
+      <text x="339" y="78" fill="#ffffff" font-family="sans-serif" font-size="36" font-weight="900">18.4 Mo</text>
+      <text x="339" y="110" fill="#a78bfa" font-family="monospace" font-size="11">● HEALTHY LIQUIDITY BUFFER</text>
+
+      <rect x="630" y="0" width="290" height="135" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(244,63,94,0.3)" stroke-width="1.5"/>
+      <text x="654" y="34" fill="#fb7185" font-family="sans-serif" font-size="12" font-weight="bold">EXECUTIVE DECISION LATENCY</text>
+      <text x="654" y="78" fill="#ffffff" font-family="sans-serif" font-size="36" font-weight="900">&lt; 1.2s</text>
+      <text x="654" y="110" fill="#ec4899" font-family="monospace" font-size="11">⚡ REAL-TIME REFRESH RATE</text>
+    </g>
+
+    <!-- Main Chart & Formula Area -->
+    <g transform="translate(40, 255)">
+      <!-- Left Chart -->
+      <rect x="0" y="0" width="550" height="340" rx="20" fill="rgba(255,255,255,0.02)" stroke="rgba(168,85,247,0.2)" stroke-width="1.5"/>
+      <text x="25" y="36" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="800">Forecasted Revenue vs. Operating Expenses</text>
+      <text x="25" y="58" fill="#c084fc" font-family="monospace" font-size="11">Corporate Finance Predictive Simulation (NASBA Certified)</text>
+
+      <line x1="25" y1="120" x2="525" y2="120" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+      <line x1="25" y1="180" x2="525" y2="180" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+      <line x1="25" y1="240" x2="525" y2="240" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+      <!-- Spline Curves -->
+      <path d="M 35 260 Q 140 180 250 200 T 400 130 T 515 90" fill="none" stroke="url(#pulse-line)" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M 35 260 Q 140 180 250 200 T 400 130 T 515 90 L 515 290 L 35 290 Z" fill="url(#pulse-line)" opacity="0.1"/>
+      <path d="M 35 280 Q 140 250 250 260 T 400 220 T 515 200" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-dasharray="4,4"/>
+
+      <!-- Dots -->
+      <circle cx="250" cy="200" r="6" fill="#ffffff" stroke="#ec4899" stroke-width="2.5"/>
+      <circle cx="400" cy="130" r="6" fill="#ffffff" stroke="#a855f7" stroke-width="2.5"/>
+      <circle cx="515" cy="90" r="7" fill="#f43f5e" stroke="#ffffff" stroke-width="2.5"/>
+      
+      <!-- Right Side Stacked Breakdown -->
+      <g transform="translate(575, 0)">
+        <rect x="0" y="0" width="345" height="340" rx="20" fill="rgba(30,14,54,0.9)" stroke="rgba(168,85,247,0.3)" stroke-width="1.5"/>
+        <text x="24" y="38" fill="#e9d5ff" font-family="sans-serif" font-size="15" font-weight="bold">Core Model Capabilities</text>
+
+        <g transform="translate(24, 60)">
+          <circle cx="8" cy="12" r="4" fill="#ec4899"/>
+          <text x="22" y="16" fill="#fda4af" font-family="sans-serif" font-size="12" font-weight="bold">Corporate Finance Foundations</text>
+          <text x="22" y="34" fill="#a78bfa" font-family="monospace" font-size="10">NASBA &amp; LinkedIn accredited methodology</text>
+
+          <circle cx="8" cy="62" r="4" fill="#a855f7"/>
+          <text x="22" y="66" fill="#fda4af" font-family="sans-serif" font-size="12" font-weight="bold">Advanced Excel Modeling (MOS Master)</text>
+          <text x="22" y="84" fill="#a78bfa" font-family="monospace" font-size="10">Nested logical formulas &amp; pivot workflows</text>
+
+          <circle cx="8" cy="112" r="4" fill="#34d399"/>
+          <text x="22" y="116" fill="#fda4af" font-family="sans-serif" font-size="12" font-weight="bold">Decision-Ready Management Output</text>
+          <text x="22" y="134" fill="#a78bfa" font-family="monospace" font-size="10">Concise KPI summaries for leadership</text>
+        </g>
+
+        <rect x="20" y="240" width="305" height="75" rx="12" fill="rgba(168,85,247,0.12)" stroke="#a855f7" stroke-width="1"/>
+        <text x="35" y="270" fill="#c084fc" font-family="monospace" font-size="11" font-weight="bold">REVENUE FORMULA (EXCEL):</text>
+        <text x="35" y="295" fill="#34d399" font-family="monospace" font-size="11">=EBITDA - (D&amp;A + CapEx + WorkingCapΔ)</text>
+      </g>
+    </g>
+  </g>
+</svg>
