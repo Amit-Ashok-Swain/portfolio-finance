@@ -50,7 +50,7 @@ export default function TerminalOS() {
     contact:
       "Email: amitashokswain@gmail.com\nPhone: +91-8369083160\nLinkedIn: https://www.linkedin.com/in/amit-ashok-s-a510b9b9/\nGitHub: https://github.com/Amit-Ashok-Swain",
     resume:
-      "Triggering download for Amit_Ashok_Swain_Resume.pdf...",
+      "Triggering download for Amit_Ashok_Swain_Final_CV_Accounts.pdf...",
     sudo:
       "Nice try! You already have root access to AMIT_FINANCE_OS.",
   };
@@ -211,7 +211,7 @@ export default function TerminalOS() {
       if (lower === "resume") {
         const link = document.createElement("a");
         link.href = "/resume.pdf";
-        link.download = "Amit_Ashok_Swain_Resume.pdf";
+        link.download = "Amit_Ashok_Swain_Final_CV_Accounts.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

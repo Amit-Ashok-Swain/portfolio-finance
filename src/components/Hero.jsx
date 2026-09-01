@@ -217,13 +217,13 @@ export default function Hero() {
 
             <a
               href="/resume.pdf"
-              download="Amit_Ashok_Swain_Resume.pdf"
+              download="Amit_Ashok_Swain_Final_CV_Accounts.pdf"
               onClick={() => audio.playClick()}
               onMouseEnter={() => audio.playHover()}
               className="hero-cta px-4 py-3.5 rounded-2xl bg-slate-100 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 hover:border-emerald-500 text-slate-700 dark:text-slate-300 font-mono text-xs font-bold tracking-wider hover:text-emerald-500 transition-all duration-300 flex items-center gap-1.5"
             >
               <span>↓</span>
-              <span>Resume.pdf</span>
+              <span>Download CV (Accounts)</span>
             </a>
           </div>
 

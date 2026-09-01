@@ -196,12 +196,12 @@ export default function CommandPalette({ isOpen, setIsOpen, toggleTheme }) {
       },
       {
         id: "resume",
-        label: "Download Resume (Amit_Ashok_Swain_Resume.pdf)",
+        label: "Download Resume (Amit_Ashok_Swain_Final_CV_Accounts.pdf)",
         shortcut: "↓",
         action: () => {
           const link = document.createElement("a");
           link.href = "/resume.pdf";
-          link.download = "Amit_Ashok_Swain_Resume.pdf";
+          link.download = "Amit_Ashok_Swain_Final_CV_Accounts.pdf";
           document.body.appendChild(link);
           link.click();
           document.body.removeChild(link);
