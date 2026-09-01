@@ -2,14 +2,18 @@ import { createSlice } from "@reduxjs/toolkit";
 
 import profileImg from "../assets/profile.jpeg";
 import deepvidImg from "../assets/deepvid.webp";
+import songgptImg from "../assets/songgpt.jpg";
+import soundofmemeImg from "../assets/soundofmeme.jpg";
+import neighborgoodImg from "../assets/neighborgood.png";
 import omniledgerImg from "../assets/omniledger-cover.svg";
 import pulsemetricsImg from "../assets/pulsemetrics-cover.svg";
 import optiflowImg from "../assets/optiflow-cover.svg";
 import fintrackImg from "../assets/fintrack-cover.svg";
+import aerologixImg from "../assets/aerologix-cover.svg";
 
 /*
-  Amit Ashok Swain — Multi-Disciplinary Portfolio Data
-  The Convergence of Finance, Technology, Data, and Product Leadership
+  Amit Ashok Swain — Comprehensive Production Portfolio Data
+  Convergence of Finance, Technology, Data, and Product Leadership
 */
 
 const initialState = {
@@ -22,7 +26,7 @@ const initialState = {
       "0→1 AI & Systems Architect",
     ],
     tagline:
-      "Driving product excellence, financial governance, data engineering, and 0→1 execution.",
+      "Operating at the Convergence of Strategic Finance, Software Engineering, Quantitative Data, and Product Execution from 0→1.",
     about:
       "Multi-disciplinary Finance Operations and Technical Product/Engineering leader with 6+ years of experience across full-cycle accounting, financial engineering, software architecture, data pipelines, and large-scale project execution. Proven track record managing full-cycle finance operations (invoicing, AP/AR, reconciliations, P&L/MIS, GST/TDS, month-end closes), leading 40+ concurrent technology workstreams, driving agile sprints, and engineering automated data-driven systems. Candidate for MSc in Financial Engineering (WorldQuant University) with a B.E. in Computer Engineering from University of Mumbai.",
     avatar: profileImg,
@@ -43,7 +47,7 @@ const initialState = {
     "Cash Flow Forecasting",
     "Working Capital Optimization",
     "GST & ITC 3-Way Reconciliation",
-    "Java & Spring Boot",
+    "Java 21 & Spring Boot 3",
     "Python & FastAPI",
     "Financial Engineering",
     "Power Query Multi-Source ETL",
@@ -58,7 +62,19 @@ const initialState = {
 
   techMatrix: [
     {
-      category: "Finance & Accounting",
+      category: "Software & Cloud Engineering",
+      items: [
+        "Java 21, Spring Boot 3, Hibernate/JPA, HikariCP",
+        "Python, FastAPI, Django, PyTorch, Transformers",
+        "Distributed System Design (HLD/LLD), OOP & Clean Code",
+        "AWS (EC2, S3), Docker Containers, CI/CD GitHub Actions",
+        "RESTful APIs, WebSockets, Celery, Redis Task Queues",
+        "Algorithms & Database Engineering (600+ Solved)",
+        "JavaScript, MERN Stack, React & Vite",
+      ],
+    },
+    {
+      category: "Finance & Corporate Accounting",
       items: [
         "P&L, Balance Sheet & Cash Flow Integrity",
         "General Ledger & 0-Variance Trial Balance",
@@ -67,19 +83,7 @@ const initialState = {
         "5-Day Month-End Closing SOPs",
         "Working Capital & Liquidity Optimization",
         "13-Week Direct/Indirect Cash Forecasting",
-        "Corporate Finance Foundations",
-      ],
-    },
-    {
-      category: "Software & Cloud Engineering",
-      items: [
-        "Java, Spring Boot, Hibernate, JPA Microservices",
-        "Python, FastAPI, Django, Node.js, Express",
-        "System Architecture (HLD/LLD), OOP & Clean Code",
-        "AWS (EC2, S3), Docker Containers, CI/CD Actions",
-        "RESTful APIs, WebSockets, Postman Testing",
-        "Algorithms & Database Engineering (600+ Solved)",
-        "JavaScript, MERN Stack, React & Vite",
+        "Corporate Finance & Financial Valuation",
       ],
     },
     {
@@ -88,7 +92,7 @@ const initialState = {
         "MSc in Financial Engineering Graduate Candidate",
         "Power Query Multi-Source Data ETL & Pipelines",
         "Advanced Excel Modeling (SUMIFS, XLOOKUP, Dynamic Arrays)",
-        "Python (Pandas, NumPy) & Statistical Modeling",
+        "Python (Pandas, NumPy) & Statistical Econometrics",
         "SQL Query Optimization & Data Normalization",
         "Automated Discrepancy & Anomaly Detection",
         "Executive Dashboards, Scorecards & Telemetry",
@@ -98,7 +102,7 @@ const initialState = {
       category: "Product & Operations Leadership",
       items: [
         "Agile, Scrum, Kanban, Sprint Planning, JIRA",
-        "Product Discovery, PRD Formulation, MoSCoW",
+        "Product Discovery, PRD Formulation, MoSCoW Prioritization",
         "40+ Concurrent Multi-Stakeholder Workstreams Managed",
         "Lean Project Management (LeanPM® Yellow Belt Certified)",
         "Process Re-Engineering (+57% Speed, -87% Errors)",
@@ -112,9 +116,9 @@ const initialState = {
         "GSTR-1 Outward & GSTR-3B Tax Return Filing",
         "GSTR-2B vs Purchase Register 3-Way ITC Matching",
         "Section 17(5) Blocked Credit Governance",
+        "TCS u/s 206C(1F) @ 1% (> ₹10L Sales)",
         "TDS Compliance (194C, 194J, 194Q) & Audit Defense",
         "E-Invoicing & E-Way Bill Integration",
-        "Statutory Audit & Tax Scrutiny Support",
       ],
     },
     {
@@ -230,45 +234,47 @@ const initialState = {
   projects: [
     {
       id: 1,
-      slug: "omniledger-ai",
-      title: "OmniLedger AI",
-      tagline: "Enterprise Financial Consolidation & Multi-Entity Reconciliation Engine",
+      slug: "autofinance-ai-automation",
+      title: "AutoFinance AI™",
+      tagline: "Automobile Dealership Finance, DO Payouts & GSTR-2B 3-Way ITC Suite",
       role: "Finance Operations & Systems Architect",
-      timeline: "Enterprise Financial Suite",
+      timeline: "Dealership Automation Suite",
+      category: "Finance & Operations",
       metrics: [
-        { label: "Ledger Reconciliation", value: "99.98%" },
-        { label: "Month-End Close", value: "5-Day Calendar" },
-        { label: "Multi-Entity Nodes", value: "45+ Synced" },
-        { label: "Variance Margin", value: "0.00%" },
+        { label: "Dealership Run-Rate", value: "₹12.50 Cr" },
+        { label: "Cash Conversion Cycle", value: "24 Days" },
+        { label: "3-Way ITC Match", value: "99.98%" },
+        { label: "Gate-Pass Security", value: "100% Dual-Auth" },
       ],
       techStack: [
-        "Corporate Finance",
-        "Power Query ETL",
-        "Python Automation",
-        "Multi-Entity P&L",
-        "Trial Balance Consolidation",
+        "Automotive Dealership Accounting",
+        "Financier DO Recon",
+        "Workshop Job Cards",
+        "OEM Scheme Rebates",
+        "GSTR-2B 3-Way Match",
+        "TCS 206C(1F)",
       ],
       description:
-        "An enterprise-grade financial consolidation and reconciliation architecture engineered to unify multi-entity ledgers, automate month-end closing schedules, and produce real-time executive P&L and working capital scorecards.",
+        "An end-to-end financial operations and intelligent automation suite purpose-built for multi-location automotive dealership networks, automating vehicle sales billing, financier DO payouts, workshop job-cards, OEM scheme reconciliations, and maker-checker gate-passes.",
       challenge:
-        "Corporate accounting teams struggle with fragmented multi-entity transaction spreadsheets, manual data entry errors, delayed GST reconciliation, and lack of real-time visibility into working capital.",
+        "Automobile dealerships suffer from delayed financier payouts, disputed OEM incentive claims, untracked workshop labor billability, and cash leakages from premature vehicle handovers.",
       solution:
-        "Engineered an automated Power Query and financial modeling framework featuring structured ledger normalization, nested SUMIFS/INDEX-MATCH cross-validation, automated audit trails, and executive variance dashboards.",
+        "Engineered automated workflows cross-matching bank credits with delivery orders, computing net vehicle yield, reconciling GSTR-2B input tax credits, and enforcing 4-step dual-auth gate-pass releases.",
       architectureHighlights: [
-        "Multi-entity transaction normalization and uniform chart of accounts mapping",
-        "Automated commercial scheme and warranty claim reconciliation with zero-variance margin",
-        "Consolidated group financial statements (P&L, Balance Sheet, Cash Flow)",
-        "Executive KPI summary views with real-time variance alerting",
+        "Vehicle sales tax invoicing with automated TCS 206C(1F) and financier subventions",
+        "Automated DO settlement tracker across HDFC, ICICI, SBI, Tata Capital, and Mahindra",
+        "Workshop job-card billing (18% GST) and parts gross margin (28% GST)",
+        "OEM quarterly volume target rebate and warranty claim reconciliation",
       ],
       color: "bg-slate-900",
       border: "border-emerald-500/50",
-      image: omniledgerImg,
-      link: "https://omniledger-ai.vercel.app",
-      codeSnippet: `-- Automated Multi-Entity Financial Consolidation:
-=SUMIFS(Ledger!$E:$E, Ledger!$B:$B, ">="&$B$2, Ledger!$B:$B, "<="&$B$3, Ledger!$D:$D, "Revenue")
-Net Working Capital = Current Assets - Current Liabilities
-Gross Operating Margin = (Gross Profit / Total Revenue) * 100
->> Multi-Entity Ledger Status: 100% RECONCILED (0 Exceptions)`,
+      image: aerologixImg,
+      link: "https://github.com/Amit-Ashok-Swain/autofinance-ai-automation",
+      codeSnippet: `VEHICLE ON-ROAD BILLING & TCS LOGIC:
+Consideration = ExShowroom (₹19,49,000) + Accessories (₹24,500)
+TCS_Applicable = (Consideration > 10,00,000) ? Consideration * 0.01 : 0
+Financier Payout Commission = LoanAmount (₹16,00,000) * 0.024
+>> Dealership Net Margin per Unit: ₹1,28,450 (Yield: 6.59%)`,
     },
     {
       id: 2,
@@ -277,6 +283,7 @@ Gross Operating Margin = (Gross Profit / Total Revenue) * 100
       tagline: "Viral AI Content Platform & Scalable GPU Microservices",
       role: "Lead Engineering PM & System Architect",
       timeline: "6 Months (0→1 Launch)",
+      category: "AI & Cloud Tech",
       metrics: [
         { label: "Active Creators", value: "150K+" },
         { label: "Generation Latency", value: "<1.8s" },
@@ -320,11 +327,102 @@ Gross Operating Margin = (Gross Profit / Total Revenue) * 100
     },
     {
       id: 3,
+      slug: "omniledger-ai",
+      title: "OmniLedger AI",
+      tagline: "Enterprise Financial Consolidation & Multi-Entity Reconciliation Engine",
+      role: "Finance Operations & Systems Architect",
+      timeline: "Enterprise Financial Suite",
+      category: "Finance & Data",
+      metrics: [
+        { label: "Ledger Reconciliation", value: "99.98%" },
+        { label: "Month-End Close", value: "5-Day Calendar" },
+        { label: "Multi-Entity Nodes", value: "45+ Synced" },
+        { label: "Variance Margin", value: "0.00%" },
+      ],
+      techStack: [
+        "Corporate Finance",
+        "Power Query ETL",
+        "Python Automation",
+        "Multi-Entity P&L",
+        "Trial Balance Consolidation",
+      ],
+      description:
+        "An enterprise-grade financial consolidation and reconciliation architecture engineered to unify multi-entity ledgers, automate month-end closing schedules, and produce real-time executive P&L and working capital scorecards.",
+      challenge:
+        "Corporate accounting teams struggle with fragmented multi-entity transaction spreadsheets, manual data entry errors, delayed GST reconciliation, and lack of real-time visibility into working capital.",
+      solution:
+        "Engineered an automated Power Query and financial modeling framework featuring structured ledger normalization, nested SUMIFS/INDEX-MATCH cross-validation, automated audit trails, and executive variance dashboards.",
+      architectureHighlights: [
+        "Multi-entity transaction normalization and uniform chart of accounts mapping",
+        "Automated commercial scheme and warranty claim reconciliation with zero-variance margin",
+        "Consolidated group financial statements (P&L, Balance Sheet, Cash Flow)",
+        "Executive KPI summary views with real-time variance alerting",
+      ],
+      color: "bg-slate-900",
+      border: "border-emerald-500/50",
+      image: omniledgerImg,
+      link: "https://omniledger-ai.vercel.app",
+      codeSnippet: `-- Automated Multi-Entity Financial Consolidation:
+=SUMIFS(Ledger!$E:$E, Ledger!$B:$B, ">="&$B$2, Ledger!$B:$B, "<="&$B$3, Ledger!$D:$D, "Revenue")
+Net Working Capital = Current Assets - Current Liabilities
+Gross Operating Margin = (Gross Profit / Total Revenue) * 100
+>> Multi-Entity Ledger Status: 100% RECONCILED (0 Exceptions)`,
+    },
+    {
+      id: 4,
+      slug: "songgpt",
+      title: "SongGPT",
+      tagline: "AI Music Production Engine & Contextual Lyric Synthesizer",
+      role: "Lead Product Manager & Prompt Architect",
+      timeline: "4 Months (MVP to V1)",
+      category: "AI & Cloud Tech",
+      metrics: [
+        { label: "Weekly Active Users", value: "45K+" },
+        { label: "Audio Stems Synthesized", value: "850K+" },
+        { label: "Token Generation Speed", value: "85 t/s" },
+        { label: "Prompt-to-Audio", value: "4.2s" },
+      ],
+      techStack: [
+        "Python FastAPI",
+        "Audio Diffusion",
+        "WebSockets",
+        "Spotify API",
+        "React",
+        "Redis",
+      ],
+      description:
+        "An AI music creation studio that generates radio-ready song stems, harmony arrangements, and contextual rhymes from simple natural language prompts.",
+      challenge:
+        "Composers spent days brainstorming chord progressions and mastering stems across isolated digital audio workstations.",
+      solution:
+        "Developed a streamlined DAW-in-the-browser pairing generative LLM lyricists with diffusion-based rhythm generators and live Spotify trend telemetry.",
+      architectureHighlights: [
+        "Zero-shot audio stem generation using fine-tuned diffusion models",
+        "Streaming multi-track mixing console in React with Web Audio API",
+        "Real-time sentiment and rhyme analysis powered by FastAPI",
+        "Direct export to WAV, MIDI, and Spotify canvas video formats",
+      ],
+      color: "bg-slate-900",
+      border: "border-purple-500/50",
+      image: songgptImg,
+      link: "https://songgpt.vercel.app",
+      codeSnippet: `// Dynamic Lyric & Beat Engine
+const stemSession = await SongGPT.synthesize({
+  genre: "Synthwave Neo-Tokyo",
+  bpm: 128,
+  key: "F# Minor",
+  mood: "Melancholic Cyberpunk"
+});
+>> STREAMING WAV STEMS: [Bass, Leads, Drums, Vocals]`,
+    },
+    {
+      id: 5,
       slug: "pulsemetrics-kpi",
       title: "PulseMetrics Finance",
       tagline: "Executive Financial KPI Cockpit & 13-Week Cash Flow Forecasting Engine",
       role: "Head of Accounts & Reporting Lead",
       timeline: "Strategic MIS Suite",
+      category: "Finance & Data",
       metrics: [
         { label: "Cash Conversion Cycle", value: "24 Days" },
         { label: "Decision Refresh", value: "<1.0s" },
@@ -361,12 +459,13 @@ Opening Cash + Projected Collections + Financier Disbursements + Service Cash In
 >> Liquidity Alert Status: HEALTHY • 0 Breach Events Projected (90-Day Window)`,
     },
     {
-      id: 4,
+      id: 6,
       slug: "optiflow-erp",
       title: "OptiFlow Controls",
       tagline: "Internal Control, Approval Matrix & Anti-Fraud Governance Architecture",
       role: "Finance Operations & Governance Lead",
       timeline: "Governance Platform",
+      category: "Product & Controls",
       metrics: [
         { label: "Billing Error Rate", value: "-87%" },
         { label: "Release Authorization", value: "100% Dual-Auth" },
@@ -404,12 +503,13 @@ Step 04 // Security Gate-Pass Generation: Asset Identification QR Code Emitted
 [Status] ASSET RELEASE AUTHORIZED • 100% Audit Coverage`,
     },
     {
-      id: 5,
+      id: 7,
       slug: "fintrack-pro",
       title: "FinTrack Gateway",
       tagline: "Corporate Invoicing, E-Way Bill & GST / ITC 3-Way Reconciliation Portal",
       role: "Finance Systems Architect",
       timeline: "Tax & Billing Suite",
+      category: "Finance & Data",
       metrics: [
         { label: "ITC Match Accuracy", value: "99.98%" },
         { label: "E-Invoice Generation", value: "<15 Seconds" },
@@ -447,6 +547,50 @@ Inward Invoices Tested: 320 records | GSTR-2B Stream: 318 records
 • Defaulting Vendor Discrepancies: 2 invoices (₹35,000 notice dispatched)
 [Result] 100% ITC RECOVERED • 0 Statutory Penalty Exposure`,
     },
+    {
+      id: 8,
+      slug: "neighborgood",
+      title: "NeighborGood",
+      tagline: "Autonomous Community Platform & Geospatial Event Router",
+      role: "Lead Full-Stack PM",
+      timeline: "5 Months",
+      category: "Product & Operations",
+      metrics: [
+        { label: "Community Hubs", value: "12 Cities" },
+        { label: "Event Matching", value: "<150ms" },
+        { label: "Verified Neighbors", value: "85K+" },
+        { label: "Engagement Lift", value: "+320%" },
+      ],
+      techStack: [
+        "React",
+        "Node.js",
+        "PostGIS / PostgreSQL",
+        "GraphQL",
+        "Tailwind CSS",
+        "Mapbox GL",
+      ],
+      description:
+        "A hyper-local civic and neighborhood engagement web app connecting residents, local councils, and volunteer networks with real-time geospatial routing.",
+      challenge:
+        "Urban communities suffered from fragmented social communication channels, slow emergency resource coordination, and lack of verified resident authentication.",
+      solution:
+        "Engineered an event-driven platform featuring real-time spatial clustering, neighborhood verified badges, zero-latency emergency announcements, and collaborative local initiative voting.",
+      architectureHighlights: [
+        "PostGIS spatial indexing for sub-150ms radius geospatial queries",
+        "GraphQL subscriptions powering real-time live neighborhood chat",
+        "Interactive Vector Mapbox maps with live incident markers",
+        "Role-based access control for neighborhood council administrators",
+      ],
+      color: "bg-slate-900",
+      border: "border-cyan-500/50",
+      image: neighborgoodImg,
+      link: "https://neighborgood.vercel.app",
+      codeSnippet: `// PostGIS Spatial Query
+SELECT id, title, location, ST_Distance(geom, ST_MakePoint($long, $lat)::geography) as distance
+FROM community_events
+WHERE ST_DWithin(geom, ST_MakePoint($long, $lat)::geography, 5000)
+ORDER BY distance ASC LIMIT 20;`,
+    },
   ],
 
   contact: {
@@ -454,6 +598,7 @@ Inward Invoices Tested: 320 records | GSTR-2B Stream: 318 records
     phone: "+91-8369083160",
     location: "Navi Mumbai, Maharashtra, India",
     linkedin: "https://www.linkedin.com/in/amit-ashok-s-a510b9b9/",
+    github: "https://github.com/Amit-Ashok-Swain",
   },
 };
 
